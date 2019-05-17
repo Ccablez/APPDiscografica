@@ -28,7 +28,7 @@ function compruebayenvia() {
 	datos=document.iniciosesion;
 	if (datos.usuario.value == '' ||
 			datos.pass.value == '')
-		alert ('¡Tiene que rellenar todos los campos!');
+		alert ('¡Tiene que rellenar todos los campos de inicio de sesión!');
 	else datos.submit();
 }
 
